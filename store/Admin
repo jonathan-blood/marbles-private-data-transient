@@ -1,0 +1,1 @@
+{"name":"Admin","mspid":"Org1MSP","roles":null,"affiliation":"","enrollmentSecret":"","enrollment":{"signingIdentity":"<CRYPTO_STORE_FILENAME>","identity":{"certificate":"<CERTIFICATE>"}}}
