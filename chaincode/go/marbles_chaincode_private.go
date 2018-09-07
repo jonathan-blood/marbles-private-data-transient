@@ -208,7 +208,7 @@ func (t *SimpleChaincode) initMarble(stub shim.ChaincodeStubInterface, args []st
 	if err != nil {
 		return shim.Error("3rd argument must be a numeric string")
 	}
-	price, err := strconv.Atoi(mapPriceString)
+	price, err := strconv.Atoi(priceString)
 	if err != nil {
 		return shim.Error("Price from map must be a numeric string: " + err.Error())
 	}
